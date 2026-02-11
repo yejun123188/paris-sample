@@ -1,0 +1,19 @@
+로컬 git 히스토리 완전 초기화
+//1. git 삭제
+rm -rf .git
+
+//2. 사용자 정보 등록 (컴퓨터 변경시 한번만)
+git config user.name "아이디"
+git config user.email "이메일"
+
+//3. 버전관리 초기화
+git init
+
+//4. 설정 내용확인
+git config --list / git config -l
+
+//5. 상태확인
+git status
+
+//6. branch 확인
+git branch
